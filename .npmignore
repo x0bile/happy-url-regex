@@ -1,7 +1,7 @@
 src
+tests
 .babelrc
 .eslintrc.yml
 .travis.yml
 *.log
 *.md
-test.js
