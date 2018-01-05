@@ -1,8 +1,8 @@
 # happy-url-regex
 
-![](https://media.giphy.com/media/nXxOjZrbnbRxS/giphy.gif)
-
 A regular expression for matching URLs.
+
+![](https://media.giphy.com/media/nXxOjZrbnbRxS/giphy.gif)
 
 A fork of [url-regex](https://github.com/kevva/url-regex) by Kevin Mårtensson, which is based on a [gist](https://gist.github.com/dperini/729294) by Diego Perini.
 
