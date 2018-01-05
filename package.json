@@ -1,6 +1,6 @@
 {
   "name": "happy-url-regex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Regular expression for matching URLs",
   "license": "MIT",
   "repository": "https://github.com/x0bile/happy-url-regex.git",
