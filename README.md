@@ -18,6 +18,12 @@ Webpack uglification would complain when using the original `url-regex` package 
 $ npm install --save happy-url-regex
 ```
 
+or
+
+```
+$ yarn add happy-url-regex
+```
+
 ## Usage
 
 ```js
@@ -29,16 +35,16 @@ happyUrlRegex().test('http://github.com foo bar')
 happyUrlRegex().test('www.github.com foo bar')
 // true
 
-happyUrlRegex({exact: true}).test('http://github.com foo bar')
+happyUrlRegex({ exact: true }).test('http://github.com foo bar')
 // false
 
-happyUrlRegex({exact: true}).test('http://github.com')
+happyUrlRegex({ exact: true }).test('http://github.com')
 // true
 
-happyUrlRegex({strict: false}).test('github.com foo bar')
+happyUrlRegex({ strict: false }).test('github.com foo bar')
 // true
 
-happyUrlRegex({exact: true, strict: false}).test('github.com')
+happyUrlRegex({ exact: true, strict: false }).test('github.com')
 // true
 
 'foo http://github.com bar //google.com'.match(happyUrlRegex())
